@@ -13,6 +13,10 @@ app.get('/manh', (req, res) => {
     res.send('Manhhhhhhhhhhhhh111')
 })
 
+app.get('/vtc', (req, res) => {
+    res.send('Manhhhhhhhhhhhhh11fesffffffffff1 VTC')
+})
+
 app.listen(8080, () => {
     console.log('Server is runing on port 8080')
 })
