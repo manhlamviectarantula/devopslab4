@@ -5,6 +5,10 @@ app.get('/', (Req, res) => {
     res.send('Hello world')
 })
 
+app.get('/about', (req, res) => {
+    res.send('About Us')
+})
+
 app.listen(8080, () => {
     console.log('Server is runing on port 8080')
 })
