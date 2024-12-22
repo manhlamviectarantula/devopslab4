@@ -9,6 +9,10 @@ app.get('/about', (req, res) => {
     res.send('About Us')
 })
 
+app.get('/manh', (req, res) => {
+    res.send('Manhhhhhhhhhhhhh111')
+})
+
 app.listen(8080, () => {
     console.log('Server is runing on port 8080')
 })
