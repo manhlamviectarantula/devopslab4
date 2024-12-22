@@ -24,7 +24,7 @@ jobs:
       - run:
           name: Start Application on EC2
           command: |
-            ssh -o StrictHostKeyChecking=no -i ~/.ssh/devopslab4.pem ubuntu@ec2-3-0-58-10.ap-southeast-1.compute.amazonaws.com "cd /home/ubuntu/app && npm install && pm2 start index.js"
+            ssh -o StrictHostKeyChecking=no -i ~/.ssh/devopslab4.pem ubuntu@ec2-3-0-58-10.ap-southeast-1.compute.amazonaws.com "cd /home/ubuntu/app && npm install && pm2 restart index.js"
 
 workflows:
   version: 2
